@@ -1,6 +1,6 @@
 import Meteor from 'react-native-meteor';
 import { createStore, applyMiddleware } from 'redux';
-import createLogger from 'redux-logger';
+import { createLogger } from 'redux-logger';
 import { REHYDRATE } from 'redux-persist/constants'
 import _ from 'lodash';
 import { persistStore, autoRehydrate } from 'redux-persist';
